@@ -1,5 +1,5 @@
 
-# Rincón Freya - Panel de Administración E-commerce
+# Rincón Freya (www.rincondefreya.com.ar) - Panel de Administración E-commerce
 
 > Proyecto profesional desarrollado por Facundo Tupone
 
@@ -36,9 +36,6 @@ Rincón Freya es un panel de administración para e-commerce, pensado para la ge
 - `includes/` — Funciones, conexión y utilidades (sin datos sensibles)
 - `assets/` — CSS, JS y recursos estáticos
 - `components/` — Fragmentos reutilizables (footer, nav, head)
-
-## Capturas de pantalla
-> Puedes agregar aquí imágenes ilustrativas del panel (sin datos reales).
 
 ## Sobre el autor
 **Facundo Tupone**  
