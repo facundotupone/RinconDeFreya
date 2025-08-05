@@ -1,0 +1,15 @@
+# Ignorar archivos y carpetas sensibles y pesadas
+includes/config.php
+includes/db.php
+assets/images/
+assets/images/products/
+*.env
+*.sqlite
+*.log
+node_modules/
+vendor/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env.*
