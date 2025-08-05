@@ -1,33 +1,50 @@
-# Rincón Freya - Admin E-commerce
 
-Este proyecto es un panel de administración para la tienda Rincón Freya, desarrollado en PHP y Bootstrap 5.
+# Rincón Freya - Panel de Administración E-commerce
 
-## Características principales
-- Gestión de productos, categorías, subcategorías y aromas
+> Proyecto profesional desarrollado por Facundo Tupone
+
+## Descripción
+Rincón Freya es un panel de administración para e-commerce, pensado para la gestión eficiente de productos, categorías y destacados. El sistema está diseñado para ser robusto, seguro y fácil de usar, ideal para empresas que buscan una solución adaptable y escalable.
+
+## Funcionalidades principales
+- ABM de productos, categorías, subcategorías y aromas
+- Gestión de productos destacados con orden personalizado (flechas móviles)
+- Edición y eliminación de productos con confirmación
 - Carga múltiple de imágenes por producto
-- Orden y gestión de productos destacados (drag & drop/flechas)
-- Edición y eliminación de productos
-- Control de stock
-- Búsqueda instantánea de productos
+- Control de stock y visualización rápida
+- Búsqueda instantánea y filtros avanzados
+- Panel responsive y mobile-friendly
 
-## Instalación
-1. Clona este repositorio:
+## Tecnologías utilizadas
+- **Backend:** PHP 7+, MySQL
+- **Frontend:** Bootstrap 5, JavaScript (AJAX), Bootstrap Icons
+- **Estructura:** Arquitectura modular, componentes reutilizables
+
+## Instalación y uso
+1. Clona el repositorio:
    ```
-   git clone https://github.com/tuusuario/rincon-freya-admin.git
+   git clone https://github.com/facundotupone/RinconDeFreya.git
    ```
-2. Copia y configura los archivos de conexión en `includes/config.php` y `includes/db.php` (no incluidos por seguridad).
-3. Asegúrate de tener una base de datos MySQL y los datos de acceso correctos.
-4. Sube las imágenes de productos a `assets/images/products/` (la carpeta está ignorada en git).
+2. Configura la base de datos MySQL y los archivos `includes/config.php` y `includes/db.php` (no incluidos por seguridad).
+3. Sube tus imágenes de productos a `assets/images/products/`.
+4. Accede a `admin_products.php` para comenzar a gestionar el catálogo.
 
-## Seguridad
-- **No subas archivos de configuración ni bases de datos reales.**
-- El archivo `.gitignore` ya protege los datos sensibles y las imágenes.
+> **Nota:** El archivo `.gitignore` protege datos sensibles y recursos privados. El repositorio es seguro para compartir como portfolio.
 
-## Estructura principal
-- `admin_products.php` — Panel principal de productos
-- `includes/` — Funciones, conexión y utilidades (sin datos sensibles en el repo)
+## Estructura del proyecto
+- `admin_products.php` — Panel principal de administración
+- `includes/` — Funciones, conexión y utilidades (sin datos sensibles)
 - `assets/` — CSS, JS y recursos estáticos
 - `components/` — Fragmentos reutilizables (footer, nav, head)
 
+## Capturas de pantalla
+> Puedes agregar aquí imágenes ilustrativas del panel (sin datos reales).
+
+## Sobre el autor
+**Facundo Tupone**  
+Desarrollador Full Stack  
+[LinkedIn](https://www.linkedin.com/in/facundotupone)  
+[GitHub](https://github.com/facundotupone)
+
 ## Licencia
-Uso privado. Adaptar según necesidades.
+Uso privado y demostrativo. Adaptable a proyectos empresariales.
